@@ -1,0 +1,49 @@
+* {
+        padding: 0;
+        margin: 0;
+        color: white;
+}
+
+body{
+        background: #0a0a19;
+}
+
+button{
+        color: black;
+}
+
+.cancha {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+}
+
+.jugador {
+        padding: 1rem;
+}
+
+.jugador > img {
+        width: 7rem;
+        height: 7rem;
+        border-radius: 12rem;
+}
+
+.botones {
+        padding:  1rem 0;
+        display: flex;
+        gap: 1rem;
+}
+
+.canchaT {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+
+        background: url(https://us.123rf.com/450wm/yaryhee/yaryhee1402/yaryhee140200001/25598929-vista-superior-de-la-cancha-de-fútbol-o-campo-de-fútbol.jpg?ver=6);
+        height: 700px;
+        background-size: cover;
+        padding: 2rem;
+}
+
+.T {
+        background: #040444 !important;
+        margin: 3rem;
+}
